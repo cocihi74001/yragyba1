@@ -416,9 +416,9 @@
                                 <h3>Дата заезда и выезда</h3>
                                 <div class="mb-3">
                                     <label for="startDate">Въехать</label>
-                                    <input required id="startDate" class="form-control steps step2" type="date" />
-                                     <label for="endDate">Выехать</label>
-                                    <input required id="endDate" class="form-control steps step2" type="date" />
+                                    <input name="startDate"  required id="startDate" class="form-control steps step2" type="date" />
+                                     <label  for="endDate">Выехать</label>
+                                    <input name="endDate" required id="endDate" class="form-control steps step2" type="date" />
                                 </div>
                                 <button type="button" class="btn btn-primary prev-step">Предыдущий</button>
                                 <button type="button" class="btn btn-primary next-step">Дальше</button>
@@ -441,13 +441,13 @@
                                         <input required name="sea_hours_count" required type="number" min="2" value="2" id="typeNumber" class="form-control steps step3" />
                                     </div>
                                      <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="island_check">
+                                      <input name="tur_check" class="form-check-input" type="checkbox" value="" id="island_check">
                                       <label class="form-check-label" for="island_check">
                                         Тур до острова
                                       </label>
                                     </div>
                                      <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="boat_check">
+                                      <input name="deliver_check"  class="form-check-input" type="checkbox" value="" id="boat_check">
                                       <label class="form-check-label" for="boat_check">
                                         Доставка до катера
                                       </label>
@@ -461,14 +461,14 @@
                                 <h3>Дополнительные услуги</h3>
                                 <div class="mb-3">
                                       <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="boat_check">
-                                      <label class="form-check-label" for="boat_check">
+                                      <input class="form-check-input" type="checkbox" value="" id="eda_check">
+                                      <label class="form-check-label" for="eda_check">
                                         Обед-ужин
                                       </label>
                                     </div>
                                      <div class="form-check">
-                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                      <label class="form-check-label" for="flexCheckDefault">
+                                      <input class="form-check-input" type="checkbox" value="" id="sauna_check">
+                                      <label class="form-check-label" for="sauna_check">
                                         Сауна
                                       </label>
                                     </div>
@@ -482,14 +482,14 @@
                                 <div class="mb-3">
                                    
                                     <div class="form-check">
-                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-                                  <label class="form-check-label" for="flexRadioDefault1">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="aero_but" checked>
+                                  <label class="form-check-label" for="aero_but">
                                     С аэропорта
                                   </label>
                                 </div>
                                 <div class="form-check">
-                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                  <label class="form-check-label" for="flexRadioDefault2">
+                                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="zd_but">
+                                  <label class="form-check-label" for="zd_but">
                                     С жд вокзала или с города
                                   </label>
                                 </div>
